@@ -1,12 +1,12 @@
 ---
 - hosts: 172.31.17.37
-  become:
+  become: yes
   tasks:
-   -name:
+   -name: loops concept
     apt:
       name: "{{ first }}"
       status: present
     loop:
-      -git
-      -tree
-      -wget
+      - git
+      - tree
+      - wget
