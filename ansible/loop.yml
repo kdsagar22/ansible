@@ -6,7 +6,7 @@
      apt:
       name: "{{ first }}"
       status: present
-    loop:
-      - git
-      - tree
-      - wget
+     loop:
+       - git
+       - tree
+       - wget
