@@ -3,10 +3,10 @@
   become:
   tasks:
    -name:
-     apt:
-       name: "{{ first }}"
-       status: present
+    apt:
+      name: "{{ first }}"
+      status: present
     loop:
-       -git
-       -tree
-       -wget
+      -git
+      -tree
+      -wget
