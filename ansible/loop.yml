@@ -4,7 +4,7 @@
   tasks:
    -name:
      apt:
-       name: "{{ loop }}"
+       name: "{{ first }}"
        status: present
     loop:
        -git
