@@ -1,8 +1,8 @@
 ---
 - name: Update
-    apt:
-      update_cache: yes
+  apt:
+   update_cache: yes
 - name: Install java
   apt:
-    name: default-jdk
-    state: present
+   name: default-jdk
+   state: present
