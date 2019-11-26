@@ -1,6 +1,6 @@
 ---
 # tasks file for mytom8onU16
-- include_tasks: myjavainatall.yml
+- include_tasks: myjavainstall.yml
 - include_tasks: tomcatuser.yml
 - include_tasks: download.yml
 - include_tasks: extract.yml
